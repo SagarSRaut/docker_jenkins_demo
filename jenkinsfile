@@ -3,8 +3,8 @@ pipeline{
 	
 	environment {
 		// Define environment variables for Git and DockerHub credentials
-		GIT_REPOSITORY_URL = 'https://github.com/DAI3862/docker_jenkins_demo.git'
-		DOCKER_IMAGE_NAME = 'pgdai3862/docker_jenkins_demo'
+		GIT_REPOSITORY_URL = 'https://github.com/SagarSRaut/docker_jenkins_demo.git'
+		DOCKER_IMAGE_NAME = 'sagarraut/docker_jenkins_demo'
 		IMAGE_TAG = '1.0' //String tag
 	}
 
